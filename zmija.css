@@ -1,0 +1,22 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.playerName {
+    display: inline-block;
+}
+
+#pocetnaStrana {
+    display: block;
+}
+
+#glavnaStrana {
+    display: none;
+}
+
+.kontrole {
+    text-align:center;
+    width:480px;
+}
+

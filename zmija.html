@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="zmija.css" rel="stylesheet">
+    <title>Zmija</title>
+</head>
+<body>
+    <div>
+    <span>
+        Ime igraca:
+        <h3 id="imeIgraca"></h3>
+    </span>
+   
+    </div>
+    
+
+<div id="pocetnaStrana">
+    <div id="ukloniInput">
+    <input type="text" placeholder="unesite ime" id="inputPolje">
+    <button onclick="prihvatiIme()">OK</button>
+    </div>
+    <div>
+    <button onclick="igrajZmiju()" id="pokreniIgru">Igraj</button>
+    </div>
+</div>
+<div id="glavnaStrana">
+    <div>
+        Broj poena:
+    <p id="poeni"></p><br>
+    </div>
+ 
+    <canvas id="canvas" width="700" height="300"></canvas><br><br><br>
+    <div class="kontrole">
+        <button id="dugmeGore" onclick="kontrola.dugmeGore()">Gore</button>
+        <button id="dugmeDole" onclick="kontrola.dugmeDole()">Dole</button>
+        <button id="dugmeLijevo" onclick="kontrola.dugmeLijevo()">Lijevo</button>
+        <button id="dugmeDesno" onclick="kontrola.dugmeDesno()">Desno</button>
+    </div> 
+</div>
+    <script src="re_zmija.js"></script>
+</body>
+</html>
